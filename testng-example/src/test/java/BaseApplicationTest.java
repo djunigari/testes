@@ -8,32 +8,32 @@ public abstract class BaseApplicationTest {
 
     @BeforeTest
     public void beforeTest(){
-        System.out.println("BeforeTest");
+        System.out.println("\tBeforeTest");
     }
 
     @BeforeClass
     public void beforeClass(){
-        System.out.println("BeforeClass");
+        System.out.println("\t\tBeforeClass");
     }
 
     @BeforeMethod
     public void beforeMethod(){
-        System.out.println("BeforeMethod");
+        System.out.println("\t\t\tBeforeMethod");
     }
 
     @AfterMethod
     public void afterMethod(){
-        System.out.println("AfterMethod");
+        System.out.println("\t\t\tAfterMethod");
     }
 
     @AfterClass
     public void afterClass(){
-        System.out.println("AfterClass");
+        System.out.println("\t\tAfterClass");
     }
 
     @AfterTest
     public void afterTest(){
-        System.out.println("AfterTest");
+        System.out.println("\tAfterTest");
     }
 
     @AfterSuite
